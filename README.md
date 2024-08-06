@@ -52,11 +52,9 @@ datasets
    ```bash
       python scripts/hog_svm_model.py
 
-
 - For MobileNet:
    ```bash
       python scripts/mobilenet_model.py
-
 
 - For InceptionV3:
    ```bash
