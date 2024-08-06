@@ -32,9 +32,12 @@ mask-detection
    cd mask-detection-neural-network
 
 2. **Download the dataset from Kaggle and place it in the datasets/masks_dataset directory:**
+
+- Face Mask Images Dataset(URL):[text](https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset)
+
+
 ```
 
-Copy code
 datasets
 ├── masks_dataset
 │   ├── Train
