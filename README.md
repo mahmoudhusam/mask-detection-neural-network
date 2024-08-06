@@ -8,6 +8,7 @@ This project aims to classify images of faces with and without masks using diffe
 
 ## Project Structure
 
+```
 mask-detection
 ├── datasets
 │ ├── masks_dataset
@@ -32,16 +33,18 @@ mask-detection
 │ ├── mobilenet_model.py
 │ └── inceptionv3_model.py
 └── README.md
+```
 
 
 ## Getting Started
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:mahmoudhusam/mask-detection-neural-network.git
    cd mask-detection
 
 2. **Download the dataset from Kaggle and place it in the datasets/masks_dataset directory:**
+```
 
 Copy code
 datasets
@@ -49,19 +52,23 @@ datasets
 │   ├── Train
 │   ├── Test
 │   └── Validation
+```
 
 3. **Install the required libraries:**
-
+   ```bash
 pip install tensorflow scikit-learn opencv-python matplotlib seaborn
 
 4. **Run the models:**
 
-For HOG + SVM:
+- For HOG + SVM:
+   ```bash
 python scripts/hog_svm_model.py
 
-For MobileNet:
+- For MobileNet:
+   ```bash
 python scripts/mobilenet_model.py
 
-For InceptionV3:
+- For InceptionV3:
+   ```bash
 python scripts/inceptionv3_model.py
 
