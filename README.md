@@ -33,11 +33,9 @@ mask-detection
 
 2. **Download the dataset from Kaggle and place it in the datasets/masks_dataset directory:**
 
-- Face Mask Images Dataset(URL):[text](https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset)
-
+- Face Mask Images Dataset(URL):[(https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset)]
 
 ```
-
 datasets
 ├── masks_dataset
 │   ├── Train
