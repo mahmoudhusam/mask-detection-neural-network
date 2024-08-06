@@ -28,8 +28,8 @@ mask-detection
 
 1. **Clone the repository:**
    ```bash
-   git clone git@github.com:mahmoudhusam/mask-detection-neural-network.git
-   cd mask-detection
+   git clone https://github.com/mahmoudhusam/mask-detection-neural-network.git
+   cd mask-detection-neural-network
 
 2. **Download the dataset from Kaggle and place it in the datasets/masks_dataset directory:**
 ```
